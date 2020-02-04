@@ -3,6 +3,6 @@
 
 Do a `composer update` if necessary, because directory: `vendor` is excluded.
 
-### `debug_helper.php` (autoloaded) has these:
+#### `debug_helper.php` (autoloaded) has these:
 1. `debugz($var)` will do `print_r($var) + die`
 2. `dumpz($var)` will do `var_dump($var) + die`
